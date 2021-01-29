@@ -31,5 +31,9 @@ $(document).ready(function () {
             responsive:responsive
     });
 
-    AOS.init();
+    AOS.init(
+        {
+            
+        }
+    );
 });
