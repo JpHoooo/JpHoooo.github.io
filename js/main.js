@@ -29,5 +29,7 @@ $(document).ready(function () {
             nav: true,
         navText: [$(".owl-navigation .owl-nav-prev"), $(".owl-navigation .owl-nav-next")],
             responsive:responsive
-        });
+    });
+
+    AOS.init();
 });
